@@ -11,7 +11,7 @@ void sieve() {
 
 	for (int i = 3;i * i <= MAX; i += 2) {
 		if(isPrime[i]) {
-			for (int j = i * i;j <= MAX;j += (j << 1)) {
+			for (int j = i * i;j <= MAX;j += (i << 1)) {
 				isPrime[j] = 0;
 			}
 		}
