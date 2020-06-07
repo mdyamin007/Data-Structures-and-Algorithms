@@ -1,25 +1,28 @@
 /**
- *  Note: This template uses some c++11 functions , so you have to compile it with c++11 flag.
- *       Example:-   $ g++ -std=c++11 c++Template.cpp
- * 
- * author:     mdyamin / mdyamin007
+ *    "Bismillahir Rahmanir Rahim"
+ *
+ *  author:     mdyamin / mdyamin007
  *  created:    06.06.2020
  **/
 
 #include <bits/stdc++.h>
-#define pii pair<int, int>
-#define mp make_pair;
+#define FAST_IO sync_with_stdio(false); cin.tie(0); cout.tie(0);
 #define pb push_back;
+#define mp make_pair;
 #define PI acos(-1)
+#define ff first
+#define ss second
 #define sf scanf
 #define pf printf
-#define S(n) scanf("%d", &n)
+#define sf1(a) sf("%d", &a)
+#define sf2(a,b) sf("%d %d", &a, &b)
+#define sf3(a,b,c) sf("%d %d %d", &a, &b, &c)
 #define FOR(i, j, k, in) for (int i=j ; i<k ; i+=in)
 #define RFOR(i, j, k, in) for (int i=j ; i>=k ; i-=in)
 #define REP(i, j) FOR(i, 0, j, 1)
 #define RREP(i, j) RFOR(i, j, 0, 1)
 #define FOREACH(it, l) for (auto it = l.begin(); it != l.end(); it++)
-#define INF 1e8
+#define INF 1e9
 #define MEM(a, b) memset(a, (b), sizeof(a))
 #define read(type) readInt<type>()
 
@@ -76,6 +79,7 @@ template <typename T> inline T readInt()
 /************************************/
 
 int main() {
+    //FAST_IO
     #ifndef ONLINE_JUDGE
 	freopen("in.txt","r",stdin);
 	//freopen("output.txt","w",stdout);
