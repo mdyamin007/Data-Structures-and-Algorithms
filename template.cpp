@@ -7,8 +7,8 @@
 
 #include <bits/stdc++.h>
 #define FAST_IO sync_with_stdio(false); cin.tie(0); cout.tie(0);
-#define pb push_back;
-#define mp make_pair;
+#define pb push_back
+#define mp make_pair
 #define PI acos(-1)
 #define ff first
 #define ss second
@@ -85,7 +85,6 @@ int main() {
 	//freopen("output.txt","w",stdout);
 	#endif
 
-    
     
     /* int tc;
 	tc = read(int);
