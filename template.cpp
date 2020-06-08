@@ -78,6 +78,12 @@ template <typename T> inline T readInt()
 }
 /************************************/
 
+int fx[] = {-1, 1, 0, 0};
+int fy[] = {0, 0, -1, 1};
+
+
+
+
 int main() {
     //FAST_IO
     #ifndef ONLINE_JUDGE
