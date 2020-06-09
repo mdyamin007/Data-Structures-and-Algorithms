@@ -6,7 +6,7 @@
  **/
 
 #include <bits/stdc++.h>
-#define FAST_IO sync_with_stdio(false); cin.tie(0); cout.tie(0);
+#define FAST_IO ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 #define pb push_back
 #define mp make_pair
 #define PI acos(-1)
