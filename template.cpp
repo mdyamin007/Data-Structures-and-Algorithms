@@ -42,6 +42,7 @@
 #define lb lower_bound
 #define ub upper_bound
 #define newline pf("\n")
+#define newlinepp cout << '\n'
 #define sfd(n) sf("%lf", &n)
 #define MAX(a,b) ((a)>(b)?(a):(b))
 #define MIN(a,b) ((a)<(b)?(a):(b))
@@ -49,6 +50,11 @@
 #define ALL(v) v.begin(), v.end()
 #define SORT(v) sort(ALL(v))
 #define REVERSE(v) reverse(ALL(v))
+#define on(n,i) n|=(1<<i)
+#define isOn(n,i) n&(1<<i)
+#define off(n,i) n = isOn(n,i) ? n ^ (1<<i) : n
+#define gcd(a,b) __gcd(a,b)
+#define lcm(a,b) ((a*b)/gcd(a,b))
 
 using namespace std;
 
@@ -78,16 +84,16 @@ int32_t main() {
 	//freopen("output.txt","w",stdout);
 	#endif
 
-    
 
 
-    /*int tc;
-	sf1(tc);
-
-	while(tc--){
-
-
-	}*/
+//    int tc;
+//	sf1(tc);
+//    //cin >> tc;
+//
+//	while(tc--){
+//
+//
+//	}
 
     return 0;
 }
