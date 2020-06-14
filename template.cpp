@@ -75,6 +75,10 @@ int fx[] = {-1, 1, 0, 0};
 int fy[] = {0, 0, -1, 1};
 
 
+void Solution() {
+    
+
+}
 
 
 int32_t main() {
@@ -84,14 +88,15 @@ int32_t main() {
 	//freopen("output.txt","w",stdout);
 	#endif
 
-
+    Solution();
 
 //    int tc;
 //	sf1(tc);
 //    //cin >> tc;
 //
-//	while(tc--){
-//
+//    FOR(tn,1,tc+1,1) {
+//        //pf("Case %lld:", tn);
+//        
 //
 //	}
 
