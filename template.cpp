@@ -79,7 +79,7 @@ int fy[] = {0, 0, -1, 1};
 
 void Solution() {
     
-
+    
 }
 
 
@@ -90,17 +90,14 @@ int32_t main() {
 	//freopen("output.txt","w",stdout);
 	#endif
 
-    Solution();
+    int tc = 1;
+	//sf1(tc);
+    //cin >> tc;
 
-//    int tc;
-//	sf1(tc);
-//    //cin >> tc;
-//
-//    FOR(tn,1,tc+1,1) {
-//        //pf("Case %lld:", tn);
-//        
-//
-//	}
+    FOR(tn,1,tc+1,1) {
+        //pf("Case %lld:", tn);
+        Solution();  
+	}
 
     return 0;
 }
