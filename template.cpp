@@ -59,6 +59,8 @@
 #define off(n,i) n = isOn(n,i) ? n ^ (1<<i) : n
 #define gcd(a,b) __gcd(a,b)
 #define lcm(a,b) ((a*b)/gcd(a,b))
+#define watch(a) cout << (#a) << " is " << (a) << '\n'
+#define watch2(a,b) cout << (#a) << " is " << (a) << " and " << (#b) << " is " << (b) << '\n'
 
 using namespace std;
 
