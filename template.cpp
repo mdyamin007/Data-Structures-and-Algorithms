@@ -15,6 +15,8 @@
  *   
  *   email:      mdyamin007@yahoo.com
  *   website:    mdyamin007.github.io
+ *   facebook:   fb.com/mdyamin007
+ *   linkedIn:   linkedin.com/in/mdyamin
  *   created:    06.06.2020
  * 
 **/
