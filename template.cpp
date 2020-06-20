@@ -61,6 +61,8 @@
 #define lcm(a,b) ((a*b)/gcd(a,b))
 #define watch(a) cout << (#a) << " is " << (a) << '\n'
 #define watch2(a,b) cout << (#a) << " is " << (a) << " and " << (#b) << " is " << (b) << '\n'
+#define MIN3(a,b,c) MIN(a, MIN(b,c))
+#define MAX3(a,b,c) MAX(a, MAX(b,c))
 
 using namespace std;
 
@@ -74,16 +76,15 @@ typedef map<int,int> mpii;
 typedef set<int> seti;
 typedef multiset<int> mseti;
 
-
-/************************************/
-
 int fx[] = {-1, 1, 0, 0};
 int fy[] = {0, 0, -1, 1};
 
+/************************************/
+
+
 
 void Solution() {
-    
-    
+
 }
 
 
