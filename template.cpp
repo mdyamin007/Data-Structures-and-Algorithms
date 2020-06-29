@@ -41,12 +41,11 @@
 #define REP(i, j) FOR(i, 0, j, 1)
 #define RREP(i, j) RFOR(i, j, 0, 1)
 #define FOREACH(it, l) for (auto it = l.begin(); it != l.end(); it++)
-#define INF (1e9)+7
 #define RESET(a, b) memset(a, (b), sizeof(a))
 #define lb lower_bound
 #define ub upper_bound
 #define newline pf("\n")
-#define newlinepp cout << '\n'
+#define endl '\n'
 #define sfd(n) sf("%lf", &n)
 #define MAX(a,b) ((a)>(b)?(a):(b))
 #define MIN(a,b) ((a)<(b)?(a):(b))
@@ -54,9 +53,9 @@
 #define ALL(v) v.begin(), v.end()
 #define SORT(v) sort(ALL(v))
 #define REVERSE(v) reverse(ALL(v))
-#define on(n,i) n|=(1<<i)
-#define isOn(n,i) n&(1<<i)
-#define off(n,i) n = isOn(n,i) ? n ^ (1<<i) : n
+#define on(n,i) (n|=(1<<i))
+#define isOn(n,i) (n&(1<<i))
+#define off(n,i) (n = isOn(n,i) ? n ^ (1<<i) : n)
 #define gcd(a,b) __gcd(a,b)
 #define lcm(a,b) ((a*b)/gcd(a,b))
 #define watch(a) cout << (#a) << " is " << (a) << '\n'
@@ -75,6 +74,9 @@ typedef vector<vi> vvi;
 typedef map<int,int> mpii;
 typedef set<int> seti;
 typedef multiset<int> mseti;
+
+const int INF = 0x3f3f3f3f3f3f;
+const int MOD = 1e9 + 7;
 
 int fx[] = {-1, 1, 0, 0};
 int fy[] = {0, 0, -1, 1};
