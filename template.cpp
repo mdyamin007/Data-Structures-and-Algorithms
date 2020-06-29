@@ -24,6 +24,7 @@
 #include <bits/stdc++.h>
 #define FAST_IO ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 #define int long long
+#define double long double
 #define pb push_back
 #define mp make_pair
 #define PI acos(-1)
@@ -62,6 +63,7 @@
 #define watch2(a,b) cout << (#a) << " is " << (a) << " and " << (#b) << " is " << (b) << '\n'
 #define MIN3(a,b,c) MIN(a, MIN(b,c))
 #define MAX3(a,b,c) MAX(a, MAX(b,c))
+#define UNIQUE(v) (v).erase(unique((v).begin(), (v).end()), (v).end())
 
 using namespace std;
 
@@ -74,6 +76,9 @@ typedef vector<vi> vvi;
 typedef map<int,int> mpii;
 typedef set<int> seti;
 typedef multiset<int> mseti;
+
+template <class T>  inline void smax(T &x,T &y){ x = max((x),(y)); y = min((x),(y));}
+template <class T>  inline void smin(T &x,T &y){ x = min((x), (y)); y = max((x),(y));}
 
 const int INF = 0x3f3f3f3f3f3f;
 const int MOD = 1e9 + 7;
