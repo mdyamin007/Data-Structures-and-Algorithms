@@ -58,7 +58,7 @@
 #define isOn(n,i) (n&(1<<i))
 #define off(n,i) (n = isOn(n,i) ? n ^ (1<<i) : n)
 #define gcd(a,b) __gcd(a,b)
-#define lcm(a,b) ((a*b)/gcd(a,b))
+#define lcm(a,b) (a/gcd(a,b)*b)
 #define watch(a) cout << (#a) << " is " << (a) << '\n'
 #define watch2(a,b) cout << (#a) << " is " << (a) << " and " << (#b) << " is " << (b) << '\n'
 #define MIN3(a,b,c) MIN(a, MIN(b,c))
@@ -77,8 +77,8 @@ typedef map<int,int> mpii;
 typedef set<int> seti;
 typedef multiset<int> mseti;
 
-template <class T>  inline void smax(T &x,T &y){ x = max((x),(y)); y = min((x),(y));}
-template <class T>  inline void smin(T &x,T &y){ x = min((x), (y)); y = max((x),(y));}
+template <class T>  inline void chmax(T &x,T &y) {if(x < y) swap(x,y);}
+template <class T>  inline void chmin(T &x,T &y) {if(x > y) swap(x,y);}
 
 const int INF = 0x3f3f3f3f3f3f;
 const int MOD = 1e9 + 7;
