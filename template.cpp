@@ -53,6 +53,7 @@
 #define SIZE(v) (int)v.size()
 #define ALL(v) v.begin(), v.end()
 #define SORT(v) sort(ALL(v))
+#define sqr(a) ((a)*(a))
 #define REVERSE(v) reverse(ALL(v))
 #define on(n,i) (n|=(1<<i))
 #define isOn(n,i) (n&(1<<i))
@@ -83,10 +84,15 @@ template <class T>  inline void chmin(T &x,T &y) {if(x > y) swap(x,y);}
 const int INF = 0x3f3f3f3f3f3f;
 const int MOD = 1e9 + 7;
 
-int fx[] = {-1, 1, 0, 0};
-int fy[] = {0, 0, -1, 1};
+/*----------------------Graph Moves----------------*/
+//const int fx[]={+1,-1,+0,+0};
+//const int fy[]={+0,+0,+1,-1};
+//const int fx[]={+0,+0,+1,-1,-1,+1,-1,+1};   // Kings Move
+//const int fy[]={-1,+1,+0,+0,+1,+1,-1,-1};  // Kings Move
+//const int fx[]={-2, -2, -1, -1,  1,  1,  2,  2};  // Knights Move
+//const int fy[]={-1,  1, -2,  2, -2,  2, -1,  1}; // Knights Move
+/*------------------------------------------------*/
 
-/************************************/
 
 
 
