@@ -50,14 +50,14 @@
 #define sfd(n) sf("%lf", &n)
 #define MAX(a,b) ((a)>(b)?(a):(b))
 #define MIN(a,b) ((a)<(b)?(a):(b))
-#define SIZE(v) (int)v.size()
+#define SZ(v) (int)v.size()
 #define ALL(v) v.begin(), v.end()
 #define SORT(v) sort(ALL(v))
 #define sqr(a) ((a)*(a))
 #define REVERSE(v) reverse(ALL(v))
-#define on(n,i) (n|=(1<<i))
-#define isOn(n,i) (n&(1<<i))
-#define off(n,i) (n = isOn(n,i) ? n ^ (1<<i) : n)
+#define on(n,i) (n|=(1LL<<i))
+#define isOn(n,i) (n&(1LL<<i))
+#define off(n,i) (n = isOn(n,i) ? n ^ (1LL<<i) : n)
 #define gcd(a,b) __gcd(a,b)
 #define lcm(a,b) (a/gcd(a,b)*b)
 #define watch(a) cout << (#a) << " is " << (a) << '\n'
@@ -114,6 +114,7 @@ int32_t main() {
 
     FOR(tn,1,tc+1,1) {
         //pf("Case %lld:", tn);
+        //cout << "Case " << tn << ":";
         Solution();  
 	}
 
