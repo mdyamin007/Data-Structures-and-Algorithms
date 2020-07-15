@@ -83,6 +83,7 @@ template <class T>  inline void chmin(T &x,T &y) {if(x > y) swap(x,y);}
 
 const int INF = 0x3f3f3f3f3f3f;
 const int MOD = 1e9 + 7;
+const double EPS = 10e-10;
 
 /*----------------------Graph Moves----------------*/
 //const int fx[]={+1,-1,+0,+0};
