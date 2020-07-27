@@ -106,7 +106,7 @@ int32_t main() {
     //FAST_IO
     #ifndef ONLINE_JUDGE
 	freopen("in.txt","r",stdin);
-	//freopen("output.txt","w",stdout);
+	//freopen("out.txt","w",stdout);
 	#endif
 
     int tc = 1;
