@@ -65,6 +65,8 @@
 #define MIN3(a,b,c) MIN(a, MIN(b,c))
 #define MAX3(a,b,c) MAX(a, MAX(b,c))
 #define UNIQUE(v) (v).erase(unique((v).begin(), (v).end()), (v).end())
+#define eb emplace_back
+#define mt make_tuple
 
 using namespace std;
 
@@ -77,6 +79,7 @@ typedef vector<vi> vvi;
 typedef map<int,int> mpii;
 typedef set<int> seti;
 typedef multiset<int> mseti;
+typedef tuple<int,int,int> State;
 
 template <class T>  inline void chmax(T &x,T &y) {if(x < y) swap(x,y);}
 template <class T>  inline void chmin(T &x,T &y) {if(x > y) swap(x,y);}
