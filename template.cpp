@@ -26,17 +26,23 @@
 #define int long long
 #define double long double
 #define pb push_back
+#define eb emplace_back
 #define mp make_pair
+#define mt make_tuple
 #define PI acos(-1)
 #define ff first
 #define ss second
 #define sf scanf
 #define pf printf
+#define pf1(a) pf("%lld", a);
+#define pf2(a,b) pf("%lld %lld", a, b)
+#define pf3(a,b,c) pf("%lld %lld %lld", a, b, c)
 #define sf1(a) sf("%lld", &a)
 #define sf2(a,b) sf("%lld %lld", &a, &b)
 #define sf3(a,b,c) sf("%lld %lld %lld", &a, &b, &c)
 #define sf4(a,b,c,d) sf("%lld %lld %lld %lld", &a, &b, &c, &d)
 #define sf5(a,b,c,d,e) sf("%lld %lld %lld %lld %lld", &a, &b, &c, &d, &e)
+#define sfd(n) sf("%lf", &n)
 #define FOR(i, j, k, in) for (int i=j ; i<k ; i+=in)
 #define RFOR(i, j, k, in) for (int i=j ; i>=k ; i-=in)
 #define REP(i, j) FOR(i, 0, j, 1)
@@ -45,9 +51,8 @@
 #define RESET(a, b) memset(a, (b), sizeof(a))
 #define lb lower_bound
 #define ub upper_bound
-#define newline pf("\n")
+#define nl pf("\n")
 #define endl '\n'
-#define sfd(n) sf("%lf", &n)
 #define MAX(a,b) ((a)>(b)?(a):(b))
 #define MIN(a,b) ((a)<(b)?(a):(b))
 #define SZ(v) (int)v.size()
@@ -65,8 +70,6 @@
 #define MIN3(a,b,c) MIN(a, MIN(b,c))
 #define MAX3(a,b,c) MAX(a, MAX(b,c))
 #define UNIQUE(v) (v).erase(unique((v).begin(), (v).end()), (v).end())
-#define eb emplace_back
-#define mt make_tuple
 
 using namespace std;
 
