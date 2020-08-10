@@ -30,6 +30,7 @@
 #define mp make_pair
 #define mt make_tuple
 #define PI acos(-1)
+#define sqr(a) ((a)*(a))
 #define ff first
 #define ss second
 #define sf scanf
@@ -42,6 +43,7 @@
 #define sf3(a,b,c) sf("%lld %lld %lld", &a, &b, &c)
 #define sf4(a,b,c,d) sf("%lld %lld %lld %lld", &a, &b, &c, &d)
 #define sf5(a,b,c,d,e) sf("%lld %lld %lld %lld %lld", &a, &b, &c, &d, &e)
+#define sfc(a) sf(" %c", &a)
 #define sfd(n) sf("%lf", &n)
 #define FOR(i, j, k, in) for (int i=j ; i<k ; i+=in)
 #define RFOR(i, j, k, in) for (int i=j ; i>=k ; i-=in)
@@ -58,8 +60,8 @@
 #define SZ(v) (int)v.size()
 #define ALL(v) v.begin(), v.end()
 #define SORT(v) sort(ALL(v))
-#define sqr(a) ((a)*(a))
 #define REVERSE(v) reverse(ALL(v))
+#define UNIQUE(v) (v).erase(unique((v).begin(), (v).end()), (v).end())
 #define on(n,i) (n|=(1LL<<i))
 #define isOn(n,i) (n&(1LL<<i))
 #define off(n,i) (n = isOn(n,i) ? n ^ (1LL<<i) : n)
@@ -69,7 +71,6 @@
 #define watch2(a,b) cout << (#a) << " is " << (a) << " and " << (#b) << " is " << (b) << '\n'
 #define MIN3(a,b,c) MIN(a, MIN(b,c))
 #define MAX3(a,b,c) MAX(a, MAX(b,c))
-#define UNIQUE(v) (v).erase(unique((v).begin(), (v).end()), (v).end())
 
 using namespace std;
 
@@ -87,10 +88,6 @@ typedef tuple<int,int,int> State;
 template <class T>  inline void chmax(T &x,T &y) {if(x < y) swap(x,y);}
 template <class T>  inline void chmin(T &x,T &y) {if(x > y) swap(x,y);}
 
-const int INF = 0x3f3f3f3f3f3f;
-const int MOD = 1e9 + 7;
-const double EPS = 10e-10;
-
 /*----------------------Graph Moves----------------*/
 //const int fx[]={+1,-1,+0,+0};
 //const int fy[]={+0,+0,+1,-1};
@@ -100,6 +97,9 @@ const double EPS = 10e-10;
 //const int fy[]={-1,  1, -2,  2, -2,  2, -1,  1}; // Knights Move
 /*------------------------------------------------*/
 
+const int INF = 0x3f3f3f3f3f3f;
+const int MOD = 1e9 + 7;
+const double EPS = 10e-10;
 
 
 
