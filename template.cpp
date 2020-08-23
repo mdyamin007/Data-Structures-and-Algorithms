@@ -35,7 +35,7 @@
 #define ss second
 #define sf scanf
 #define pf printf
-#define pf1(a) pf("%lld", a);
+#define pf1(a) pf("%lld", a)
 #define pf2(a,b) pf("%lld %lld", a, b)
 #define pf3(a,b,c) pf("%lld %lld %lld", a, b, c)
 #define sf1(a) sf("%lld", &a)
