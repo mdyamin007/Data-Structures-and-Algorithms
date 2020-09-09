@@ -73,6 +73,8 @@
 #define watch2(a,b) cout << (#a) << " is " << (a) << " and " << (#b) << " is " << (b) << '\n'
 #define MIN3(a,b,c) MIN(a, MIN(b,c))
 #define MAX3(a,b,c) MAX(a, MAX(b,c))
+#define X real()
+#define Y imag()
 
 using namespace std;
 
@@ -86,6 +88,7 @@ typedef map<int,int> mpii;
 typedef set<int> seti;
 typedef multiset<int> mseti;
 typedef tuple<int,int,int> State;
+typedef complex<int> P;
 
 template <class T>  inline void chmax(T &x,T &y) {if(x < y) swap(x,y);}
 template <class T>  inline void chmin(T &x,T &y) {if(x > y) swap(x,y);}
